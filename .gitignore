@@ -1,0 +1,10 @@
+# Abaikan file .env di folder be
+be/.env
+
+# Node modules
+be/node_modules
+fe/node_modules
+
+# Optional: build/dist folder
+be/dist
+fe/dist
