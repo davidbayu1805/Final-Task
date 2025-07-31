@@ -19,10 +19,8 @@ const Navbar = () => {
 
   const handleSectionClick = (section) => {
     if (location.pathname !== "/") {
-      // Navigate to home first, then scroll to section
       navigate("/", { state: { scrollTo: section } });
     }
-    // If already on home, ScrollLink will handle the scroll
   };
 
   useEffect(() => {

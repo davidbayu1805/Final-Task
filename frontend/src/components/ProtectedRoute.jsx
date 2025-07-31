@@ -16,7 +16,6 @@ const ProtectedRoute = ({ children }) => {
           return;
         }
         
-        // Optional: Add token validation API call here if needed
         setIsAuthenticated(true);
       } catch (error) {
         setIsAuthenticated(false);

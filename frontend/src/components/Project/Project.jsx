@@ -45,7 +45,7 @@ const Project = () => {
   }
 
   return (
-    <div className={`w-full pt-8 pb-16 px-4 sm:px-8 ${darkMode ? 'bg-gray-900' : 'bg-gray-50'}`}>
+    <div id='project' className={`w-full pt-8 pb-16 px-4 sm:px-8 ${darkMode ? 'bg-gray-900' : 'bg-gray-50'}`}>
       <div className="max-w-6xl mx-auto">
         <h3 className={`text-3xl font-bold mb-12 text-start ${darkMode ? 'text-white' : 'text-gray-800'}`}>
           My Project:
@@ -59,7 +59,6 @@ const Project = () => {
                 darkMode ? 'bg-gray-800' : 'bg-white'
               }`}
             >
-              {/* Bagian Gambar tanpa gap atas/bawah */}
               <div className={`w-full ${darkMode ? 'bg-gray-700' : 'bg-gray-100'}`}>
                 {project.image ? (
                   <img 
